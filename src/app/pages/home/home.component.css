@@ -1,0 +1,10 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-notes-wrapper{
+    margin-left: 130px;
+}
+
+
