@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { AngularComponent } from '../../components/angular/angular.component';
 import { GitComponent } from '../../components/git/git.component';
 import { ProgramacionComponent } from '../../components/programacion/programacion.component';
+import { FunctionsComponent } from '../../components/functions/functions.component';
 
 type OptionsVisibility = {
   [key: string]: boolean; // Firma de índice para acceso dinámico
@@ -14,7 +15,16 @@ type OptionsVisibility = {
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [SidebarComponent,ProgramacionComponent, GitComponent, AngularComponent, CommonModule, HtmlCssJsComponent, TerminalComponent],
+  imports: [
+    SidebarComponent,
+    ProgramacionComponent, 
+    GitComponent, 
+    AngularComponent, 
+    CommonModule, 
+    HtmlCssJsComponent, 
+    TerminalComponent, 
+    FunctionsComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
