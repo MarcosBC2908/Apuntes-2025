@@ -16,11 +16,33 @@
 </div>
 
 <div>
-    <h4>Tarea</h4>
-    <p>Exlicar ngModel y como se importa para utilizarlo</p>
-    <p>Explicar donde, cuando (evento click) y cuantas veces se llama a la funcion calculadora </p>
-    <p>Explicar que tipo de datos maneja nuestra calculadora</p>
-    <p>Explicar la linea del return en la funcion calculadora</p>
-    <p>Explicar el if y los else if de la funcion calculadora</p>
-    <p>Contestar a la pregunta: ¿devuelve algo nuestra función?</p>
+    <h2>Tarea</h2>
+    <ol>
+        <li><h3>Exlicar ngModel y como se importa para utilizarlo</h3></li>
+        <p><code>ngModel</code> es una directiva en Angular que se utiliza para crear un enlace bidireccional entre un modelo de datos en el componente y un campo de formulario en la vista. 
+        Esto significa que cualquier cambio en el campo de formulario se refleja automáticamente en el modelo de datos y viceversa. La parte "model" en <code>ngModel</code> se refiere a este modelo de datos que se está utilizando en la aplicación</p>
+        <p>Para utilizar la directiva <code>ngModel</code> en un proyecto de Angular, se necesita importar el módulo correspondiente en un archivo de configuración principal, que generalmente es <code>app.module.ts</code>. 
+        Para hacerlo se debe:</p>
+        <ol>
+            <p>
+                <li>Importar <code>FormsModule</code>: Abrir el archivo <code>app.module.ts</code> en un proyecto Angular y añadir la importación de <code>FormsModule</code> desde <code>angular/forms</code>. 
+                    Esto es esencial para que ngModel funcione correctamente.</li>
+            </p>
+            <p>
+                <li>Uso de <code>ngModel</code>: Una vez que se haya importado <code>FormsModule</code>, puedes utilizar <code>ngModel</code> en los componentes.</li>
+            </p>
+        </ol>
+        <li><h3>Explicar donde, cuando (evento click) y cuantas veces se llama a la funcion calculadora</h3></li>
+        <p></p>
+        <li><h3>Explicar que tipo de datos maneja nuestra calculadora</h3></li> 
+        <p> Tiene que ver con esto: (export class CalculadoraComponent)</p>
+        <li><h3>Explicar la linea del return en la funcion calculadora</h3></li>
+        <p></p>
+        <li><h3>Explicar el if y los else if de la funcion calculadora</h3></li>
+        <p>La instrucción <code>if</code> ejecuta una instrucción solo si una expresión booleana proporcionada se evalúa como true</p>
+        <p>La instrucción <code>if-else</code> permite elegir cuál de las dos rutas de acceso al código se deben seguir en función de una expresión booleana.</p>
+        <p>Si nos basamos en la calculadora, por ejemplo: ponemos el número 5 y luego el número 12 y le damos a la suma, el resultado sera la suma de estos dos </p>
+        <li><h3>Contestar a la pregunta: ¿devuelve algo nuestra función?</h3></li>
+        <p></p>
+    </ol>
 </div>

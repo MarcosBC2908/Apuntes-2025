@@ -17,6 +17,7 @@ export class NavbarComponent {
     { label: 'Marco', path: '/marco' },
     { label: 'Ibra', path: '/ibra' },
     { label: 'Samantha', path: '/samantha' },
+    { label: 'Pokemon', path: '/pokemon' },
     { label: 'Salir', path: '/salir' }
   ];
 }
