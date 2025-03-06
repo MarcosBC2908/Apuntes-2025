@@ -32,17 +32,22 @@
                 <li>Uso de <code>ngModel</code>: Una vez que se haya importado <code>FormsModule</code>, puedes utilizar <code>ngModel</code> en los componentes.</li>
             </p>
         </ol>
+
         <li><h3>Explicar donde, cuando (evento click) y cuantas veces se llama a la funcion calculadora</h3></li>
-        <p></p>
+        <p>Se le llama a la función calculadora en los <code>buttons</code> de nuestro html, ¿cuando se le llama? Cuando hacemos en alguno de los botones.</p>
+
         <li><h3>Explicar que tipo de datos maneja nuestra calculadora</h3></li> 
-        <p> Tiene que ver con esto: (export class CalculadoraComponent)</p>
+        <p>La calculadora recibe dos datos tipo <code>number</code> y un dato tipo <code>string</code> que nos dice el tipo de operación.</p>
+
         <li><h3>Explicar la linea del return en la funcion calculadora</h3></li>
-        <p></p>
+        <p>El <code>return</code> hace que salgamos de la función y no se ejecute lo que va después.
+            Por eso, antes del <code>return</code>, ponemos la condición de que se salga si no existe el número uno o el número dos.
+        </p>
+
         <li><h3>Explicar el if y los else if de la funcion calculadora</h3></li>
-        <p>La instrucción <code>if</code> ejecuta una instrucción solo si una expresión booleana proporcionada se evalúa como true</p>
-        <p>La instrucción <code>if-else</code> permite elegir cuál de las dos rutas de acceso al código se deben seguir en función de una expresión booleana.</p>
-        <p>Si nos basamos en la calculadora, por ejemplo: ponemos el número 5 y luego el número 12 y le damos a la suma, el resultado sera la suma de estos dos </p>
+        <p>El <code>if</code> es la primera condición y los <code>else if</code> son las condiciones encadenadas, esto significa que cuando cumples una condición las demás no se ejecutan.</p>
+
         <li><h3>Contestar a la pregunta: ¿devuelve algo nuestra función?</h3></li>
-        <p></p>
+        <p>Devuelve un <code>log</code> con la información de la operación.</p>
     </ol>
 </div>
