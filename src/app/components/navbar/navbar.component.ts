@@ -14,10 +14,8 @@ export class NavbarComponent {
   navLinks = [
     { label: 'Home', path: '/home' },
     { label: 'Marcos', path: '/marcos' },
-    { label: 'Marco', path: '/marco' },
-    { label: 'Ibra', path: '/ibra' },
-    { label: 'Samantha', path: '/samantha' },
     { label: 'Pokemon', path: '/pokemon' },
+    { label: 'Países', path: '/paises' },
     { label: 'Salir', path: '/salir' }
   ];
 }
